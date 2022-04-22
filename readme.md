@@ -1,8 +1,6 @@
 # Lose
 As a response to [_Flay_](https://www.npmjs.com/package/flay), which flays the diacricial marks off your strings, _Lose_ loses the base characters but keeps the combining diacricial marks.
 
-
-
 _________________________
 ## API
 ### lose(`string`)
@@ -11,7 +9,20 @@ var lose = require('lose');
 ```
 &nbsp;
 _________________________
+#### -- Example --
+```js
+const splitCombiningCharsArray = lose('I’m emailing my friend Chloë from a café in Chișinău.');
 
+splitCombiningCharsArray.forEach(i => console.log(`For ${i.character} the diacritical mark is ${i.diacritic}, so we'll split it from ${i.character} and lose ${i.lose}.`));
+```
+> Output will be:
+```
+"For ë the diacritical mark is   ̈  , so we'll split it from ë and lose e."
+"For é the diacritical mark is   ́  , so we'll split it from é and lose e."
+"For ș the diacritical mark is   ̗  , so we'll split it from ŗ and lose r."
+"For ă the diacritical mark is   ̆  , so we'll split it from ă and lose a."
+```
+_________________________
 &nbsp;
 ## Notes
 As a response to [_Flay_](https://www.npmjs.com/package/flay), which flays the diacricial marks off your strings, _Lose_ loses the base characters but keeps the combining diacricial marks. _Lose_ features attention to ISO 192-383 and a whole lot more. Currently supporting: Afrikaans, Albanian, Azerbaijani, Basque, Bosnian, Catalan, Cebuano, Corsican, Croatian, Czech, Danish, Dutch, Eastern Frisian, \*English, Esperanto, Estonian, Filipino, Finnish, French, Gaelic, Galician, German, Haitian Creole, Hausa, Hawaiian, \*Hmong Thoob Teb, Hungarian, Icelandic, Igbo, Italian, Javanese, \*Kinyarwanda, Kurdish, Latvian, Lithuanian, Luxembourgish, Maltese, Maori, North Frisian, Northern Sotho, Norwegian, Polish, Portuguese, Romanian, \*Samoan, Scottish Gaelic, \*Shona, Slovak, Slovenian, \*Somali, Southern Sotho, Spanish, Sundanese, \*Swahili, Swedish, Tagalog, Turkish, Turkmen, Vietnamese, \*Welsh, Western Frisian, Xhosa, Yoruba, \*Zulu
