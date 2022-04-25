@@ -1,5 +1,5 @@
 # Lose
-As a response to [_Flay_](https://www.npmjs.com/package/flay), which flays the diacricial marks off your strings, _Lose_ loses the base characters but keeps the combining diacricial marks.
+As a response to [_Flay_](https://www.npmjs.com/package/flay), which flays the diacritical marks off your strings, [_Lose_](https://www.npmjs.com/package/lose) loses the base characters but keeps the combining diacritical marks.
 
 _________________________
 ## API
@@ -25,7 +25,7 @@ splitCombiningCharsArray.forEach(i => console.log(`For ${i.character} the diacri
 _________________________
 &nbsp;
 ## Notes
-As a response to [_Flay_](https://www.npmjs.com/package/flay), which flays the diacricial marks off your strings, _Lose_ loses the base characters but keeps the combining diacricial marks. _Lose_ features attention to ISO 192-383 and a whole lot more. Currently supporting: Afrikaans, Albanian, Azerbaijani, Basque, Bosnian, Catalan, Cebuano, Corsican, Croatian, Czech, Danish, Dutch, Eastern Frisian, \*English, Esperanto, Estonian, Filipino, Finnish, French, Gaelic, Galician, German, Haitian Creole, Hausa, Hawaiian, \*Hmong Thoob Teb, Hungarian, Icelandic, Igbo, Italian, Javanese, \*Kinyarwanda, Kurdish, Latvian, Lithuanian, Luxembourgish, Maltese, Maori, North Frisian, Northern Sotho, Norwegian, Polish, Portuguese, Romanian, \*Samoan, Scottish Gaelic, \*Shona, Slovak, Slovenian, \*Somali, Southern Sotho, Spanish, Sundanese, \*Swahili, Swedish, Tagalog, Turkish, Turkmen, Vietnamese, \*Welsh, Western Frisian, Xhosa, Yoruba, \*Zulu
+As a response to [_Flay_](https://www.npmjs.com/package/flay), which flays the diacritical marks off your strings, [_Lose_](https://www.npmjs.com/package/lose) loses the base characters but keeps the combining diacritical marks. [_Lose_](https://www.npmjs.com/package/lose) features attention to ISO 192-383 and a whole lot more. Currently supporting: Afrikaans, Albanian, Azerbaijani, Basque, Bosnian, Catalan, Cebuano, Corsican, Croatian, Czech, Danish, Dutch, Eastern Frisian, \*English, Esperanto, Estonian, Filipino, Finnish, French, Gaelic, Galician, German, Haitian Creole, Hausa, Hawaiian, \*Hmong Thoob Teb, Hungarian, Icelandic, Igbo, Italian, Javanese, \*Kinyarwanda, Kurdish, Latvian, Lithuanian, Luxembourgish, Maltese, Maori, North Frisian, Northern Sotho, Norwegian, Polish, Portuguese, Romanian, \*Samoan, Scottish Gaelic, \*Shona, Slovak, Slovenian, \*Somali, Southern Sotho, Spanish, Sundanese, \*Swahili, Swedish, Tagalog, Turkish, Turkmen, Vietnamese, \*Welsh, Western Frisian, Xhosa, Yoruba, \*Zulu
 
 \*No regular diacritical marks
 

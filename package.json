@@ -1,6 +1,6 @@
 {
   "name": "lose",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "As a response to Flay, which flays the diacricial marks off your strings, Lose loses the base characters but keeps the combining diacricial marks.",
   "main": "lose.js",
   "scripts": {
@@ -10,10 +10,11 @@
   "keywords": [
     "diacritics",
     "special characters",
+    "combining characters",
     "accents",
     "flatten",
     "normalize"
   ],
-  "author": "David H",
+  "author": "David H.",
   "license": "MIT"
 }
