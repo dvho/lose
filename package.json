@@ -1,8 +1,14 @@
 {
   "name": "lose",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "As a response to Flay, which flays the diacricial marks off your strings, Lose loses the base characters but keeps the combining diacricial marks.",
   "main": "lose.js",
+  "files": [
+    "package.json",
+    "lose.js",
+    "lose.test.js",
+    "readme.md"
+  ],
   "scripts": {
     "test": "node lose.test.js",
     "prepublishOnly": "npm test"
